@@ -52,25 +52,26 @@ table {
     max-width: 1200;
     margin: 0 auto;
     padding: 0 32px;
-    display: flex;
 }
 .header {
     background-color: rgb(38, 38, 121);
-    height: 60px;
+    height: 32px 0;
 }
 .logo {
     height: 40px;
     width: 110px;
-    margin-top: 10px;
 }
-.nav {
-    margin-left: 800px;
-    margin-top: -30px;
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
 }
 .nav a {
     text-decoration: none;
     margin-left: 16px;
     color: white;
+    font-size: 10px;
 }
 h1 {
     font-size: 34px;
@@ -92,18 +93,47 @@ h1 {
     margin-left: 150px;
     margin-top: 50px;
 }
-.row1 {
-    width: 100%;
-}
 .column2 {
+    width: 30%;
     height: 200px;
-    width: 200px;
-    margin-top: 40px;
-    /* margin-left: 120px; */
-    width: 33.3%;
 }
-.row2 {
+.gallery img {
     width: 100%;
 }
+.h2 {
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+    padding: 30px;
+}
+.gallery .flex {
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: rgb(46, 46, 121);
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 10px;
+}
+.flex-img{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+}
+.gallery-container img{
+    width:105%;
+    height: 160px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
 
 
